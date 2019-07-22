@@ -1,0 +1,22 @@
+{
+  "connection": "default",
+  "collectionName": "mensaje",
+  "info": {
+    "name": "mensaje",
+    "description": ""
+  },
+  "options": {
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
+  },
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "user": {
+      "type": "string"
+    }
+  }
+}
